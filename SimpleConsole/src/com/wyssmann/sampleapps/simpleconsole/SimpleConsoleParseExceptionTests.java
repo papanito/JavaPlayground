@@ -3,7 +3,6 @@ package com.wyssmann.sampleapps.simpleconsole;
 import java.util.Arrays;
 import java.util.Collection;
 
-import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
@@ -34,7 +33,7 @@ public class SimpleConsoleParseExceptionTests {
     public SimpleConsoleParseExceptionTests(String input) {
     	fInputCommand= input;
     }
-    
+
 	@Test(expected = InvalidCommandException.class) 
 	public void throwInvalidCommandException() throws InvalidCommandException {
 		SimpleConsole.parse_input(fInputCommand);
