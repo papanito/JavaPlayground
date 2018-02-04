@@ -1,4 +1,4 @@
-
+language: java
 mvn -f ./SampleApps/pom.xml deploy -U --settings ".travis/settings.xml" 
 env:
   global:
