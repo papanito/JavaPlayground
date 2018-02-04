@@ -28,8 +28,9 @@ public class SimpleConsole {
 	public static void main(String[] args) {
 		String s;
 		Scanner reader = new Scanner(System.in);
+		System.out.println("Welcome to SimpleConsole");
 		while (true) {
-			System.out.print(">");
+			System.out.print("> ");
 			s = reader.nextLine();
 			HashMap<String,String> command;
 			try {

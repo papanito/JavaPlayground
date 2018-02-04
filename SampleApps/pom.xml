@@ -23,7 +23,7 @@
 			<resource>
 				<directory>src/main</directory>
 				<includes>
-					<include>**/com.*.java</include>
+					<include>**/*.java</include>
 				</includes>
 			</resource>    
 		</resources>
