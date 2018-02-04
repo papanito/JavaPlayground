@@ -59,7 +59,7 @@
 	</build>
 	<repositories>
 		<repository>
-			<id>wyssmann-intern</id>
+			<id>wyssmann.intern</id>
 			<url>https://nexus.wyssmann.com/respsitory/maven-intern</url>
 			<releases>
 				<enabled>true</enabled>
@@ -70,9 +70,13 @@
 		</repository>
 	</repositories>
 	<distributionManagement>
-		<repository>
-			<id>wyssmann-intern</id>
+		<snapshotRepository>
+			<id>wyssmann.snapshots</id>
 			<url>https://nexus.wyssmann.com/repository/maven-snapshots</url>
+		</snapshotRepository>
+		<repository>
+			<id>wyssmann.releases</id>
+			<url>https://nexus.wyssmann.com/repository/maven-releases</url>
 		</repository>
 	</distributionManagement>
 </project>

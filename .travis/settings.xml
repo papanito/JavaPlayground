@@ -1,0 +1,19 @@
+<settings>
+  <servers>
+    <server>
+      <id>wyssmann.intern</id>
+      <username>travis</username>
+      <password>${env.MAVENPASS}</password>
+    </server>
+    <server>
+      <id>wyssmann.releases</id>
+      <username>travis</username>
+      <password>${env.MAVENPASS}</password>
+    </server>
+    <server>
+      <id>wyssmann.snapshots</id>
+      <username>travis</username>
+      <password>${env.MAVENPASS}</password>
+    </server>
+  </servers>
+</settings>
