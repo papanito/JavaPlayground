@@ -1,4 +1,7 @@
 language: java
+jdk:
+  - oraclejdk8
+
 mvn -f ./SampleApps/pom.xml deploy -U --settings ".travis/settings.xml" 
 env:
   global:
